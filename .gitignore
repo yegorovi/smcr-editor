@@ -1,0 +1,23 @@
+# артефакты сборки
+/build/
+/dist/
+*.exe
+*.dll
+*.zip
+
+# плагины, которые кладёт windeployqt рядом с exe
+/platforms/
+/styles/
+/imageformats/
+/generic/
+/iconengines/
+/networkinformation/
+/tls/
+/translations/
+
+# скрипты упаковки одного exe (внутренние, со светскими путями)
+make_single.ps1
+pack_single.ps1
+
+# внутренние заметки
+NOTES.md
