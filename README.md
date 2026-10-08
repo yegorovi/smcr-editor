@@ -54,13 +54,13 @@ cmake --build build
 | `modfile.cpp/h` | разбор и запись `config.cpp`, `stringtable.csv`, копирование ogg |
 | `mainwindow.cpp/h` | интерфейс |
 | `ogg.cpp/h` | чтение длительности из ogg-страниц |
-| `convert.cpp/h` | конвертация mp3 → ogg |
+| `convert.cpp/h` | конвертация mp3 -> ogg |
 | `thirdparty/` | minimp3, libogg, libvorbis (собраны в проект статикой) |
 
 ## Третьи стороны
 
-- minimp3 — декодер mp3, public domain.
-- libogg и libvorbis — библиотеки Xiph.Org, лицензия BSD.
+- minimp3 - декодер mp3, public domain.
+- libogg и libvorbis - библиотеки Xiph.Org, лицензия BSD.
 
 ## Лицензия
 
